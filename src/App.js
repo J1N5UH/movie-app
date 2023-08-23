@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path="/hello" element={<h1 text="adsfasdf" />} />
         <Route path="/movie/:id" element={<Detail />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/movie-app" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
